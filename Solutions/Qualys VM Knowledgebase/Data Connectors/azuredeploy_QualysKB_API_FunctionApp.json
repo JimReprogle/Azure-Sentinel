@@ -118,19 +118,13 @@
               "sku": {
                 "name": "Y1",
                 "tier": "Dynamic",
-                "size": "Y1",
-                "family": "Y",
-                "capacity": 0
               },
               "kind": "functionapp",
               "properties": {
                   "name": "[variables('HostingPlanName')]",
-                  "computeMode": "Dynamic",
-                  "kind": "functionapp",
-                  "reserved": true,
-                  "isXenon": false,
-                  "hyperV": false,
-                  "azBalancing": false
+                  "workerSize": "0",
+                  "workerSizeId": "0",
+                  "numberOfWorkers": "1"
               }
           },
           {
