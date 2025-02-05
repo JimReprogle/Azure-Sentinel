@@ -117,7 +117,7 @@
               "location": "[resourceGroup().location]",
               "sku": {
                 "name": "Y1",
-                "tier": "Dynamic",
+                "tier": "Dynamic"
               },
               "kind": "functionapp",
               "properties": {
